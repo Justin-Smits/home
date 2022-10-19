@@ -1,17 +1,7 @@
-function login() {
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
-
-  if ( username == "admin" && password == "admin"){
-    alert ("Login successfully");
-    window.location = "index.html"; // Redirecting to other page.
-    return true;
-  }
-  else if(username != true)
-    alert("Wrong password!");
-    // Disabling fields after 3 attempts.
-    document.getElementById("username").disabled = true;
-    document.getElementById("password").disabled = true;
-    document.getElementById("submit").disabled = true;
-    return false;
-    }
+function _0x44e7(_0x5b3185,_0x202177){var _0x78caf8=_0x78ca();
+  return _0x44e7=function(_0x44e7e5,_0x49384a){_0x44e7e5=_0x44e7e5-0xc3;var _0x8e2dfd=_0x78caf8[_0x44e7e5];
+    return _0x8e2dfd;},_0x44e7(_0x5b3185,_0x202177);}(function(_0x32a2fa,_0x58b375){var _0x175b25=_0x44e7,_0x2325ed=_0x32a2fa();
+      while(!![]){
+        try{var _0x1b2ff3=parseInt(_0x175b25(0xd1))/0x1*(parseInt(_0x175b25(0xd6))/0x2)+-parseInt(_0x175b25(0xd5))/0x3*(-parseInt(_0x175b25(0xcc))/0x4)+parseInt(_0x175b25(0xce))/0x5*(parseInt(_0x175b25(0xcb))/0x6)+-parseInt(_0x175b25(0xc4))/0x7+-parseInt(_0x175b25(0xc8))/0x8+-parseInt(_0x175b25(0xd3))/0x9*(-parseInt(_0x175b25(0xcd))/0xa)+parseInt(_0x175b25(0xd7))/0xb*(-parseInt(_0x175b25(0xc3))/0xc);if(_0x1b2ff3===_0x58b375)break;else _0x2325ed['push'](_0x2325ed['shift']());}catch(_0x430f17){_0x2325ed['push'](_0x2325ed['shift']());}}}(_0x78ca,0xb07f9));function login(){var _0x53f4d1=_0x44e7,_0x4b4800=document[_0x53f4d1(0xc6)](_0x53f4d1(0xc9))['value'],_0x22f78d=document[_0x53f4d1(0xc6)](_0x53f4d1(0xd4))['value'];if(_0x4b4800==_0x53f4d1(0xc7)&&_0x22f78d==_0x53f4d1(0xc7))return alert(_0x53f4d1(0xc5)),window[_0x53f4d1(0xd0)]=_0x53f4d1(0xca),!![];else{if(_0x4b4800!=!![])alert(_0x53f4d1(0xcf));}return document[_0x53f4d1(0xc6)](_0x53f4d1(0xc9))[_0x53f4d1(0xd2)]=!![],document[_0x53f4d1(0xc6)](_0x53f4d1(0xd4))['disabled']=!![],document[_0x53f4d1(0xc6)]('submit')[_0x53f4d1(0xd2)]=!![],![];}function _0x78ca(){var _0x306f95=['132qzDTLo','7959672TJAjgf','Login\x20successfully','getElementById','admin','2905696UJpxLj','username','index.html','186474jLlMHJ','14716RRcgLS','60CzjyZr','60iUWjfX','Wrong\x20password!','location','51091gdENmF','disabled','1165977dKOIgs','password','1137Unrntp','4btACaU','423544xGVQxH'];
+        _0x78ca=function(){
+      return _0x306f95;};return _0x78ca();}
